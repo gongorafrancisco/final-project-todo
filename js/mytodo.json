@@ -1,0 +1,6 @@
+{
+    "appname":"My ToDo App",
+    "deletemsg":"All tasks were deleted successfully",
+    "addtask":"A new task was added",
+    "taskcompleted":"Task completed"
+}

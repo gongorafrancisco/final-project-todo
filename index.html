@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Final Project To-Do App by Francisco Gongora"/>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="cnt-wrapper">
+      <header>
+        <h1></h1>
+      <div id="menu-icon">
+      <div class="dot-icon"></div>
+      <div class="dot-icon"></div>
+      <div class="dot-icon"></div>
+      </div>
+      </header>
+      <nav id="nav">
+        <ul>
+        <li>
+          <div id="delete-icon">
+            <div></div>
+          </div>
+          <a href="#" id="deleteAll">Delete all tasks</a></li>
+        <li><input type="checkbox" id="hideCompleted">
+        <label for="hideCompleted">Hide completed tasks</label></li>
+      </ul>
+      </nav>
+      <div id="instructions"></div>
+      <ul id="tsk-wrapper">
+      </ul>
+      <p id="outputMsg"></p>
+      <form id="add-wrapper">
+        <input type="text" id="inputTask" placeholder="write a task" required>
+        <input type="submit" value="+" id="submitBtn">
+      </form>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
